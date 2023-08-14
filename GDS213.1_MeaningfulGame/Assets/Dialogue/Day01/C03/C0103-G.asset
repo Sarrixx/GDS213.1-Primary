@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0103-G
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Toby M. Walker
+      subtitle: "It\u2019s naturally a really beautiful place, but Marker\u2019s
+        Well is actually a manmade wetland. It was created specifically with the
+        purpose of establishing a new wild population of Western Swamp Tortoises."
+      duration: 4
+      audio: {fileID: 8300000, guid: a796696a5f040404e96b1a209ab286cd, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas Shaw
+    subtitle: "It\u2019s nice here, it seems like a good place to establish a new
+      population."
+    duration: 2.5
+    audio: {fileID: 8300000, guid: 61b33b50428d1e041a7cfc7cf7626773, type: 3}
+    responseCaption: A nice place.
+    valueModifier: -0.15
+  - isPlayer: 1
+    speaker: Douglas Shaw
+    subtitle: Well it seems like this one is enjoying its new home, hopefully it
+      settles in soon and makes some friends.
+    duration: 3.2
+    audio: {fileID: 8300000, guid: 9871605c92210c04baeef823dce54bf0, type: 3}
+    responseCaption: Enjoying its home.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas Shaw
+    subtitle: "This place is so peaceful, it's the perfect place to build a new life.
+      I\u2019m sure the tortoises will thrive."
+    duration: 3.9
+    audio: {fileID: 8300000, guid: 457255f83c6df15428362cf92508cf8f, type: 3}
+    responseCaption: Build a new life.
+    valueModifier: 0.409

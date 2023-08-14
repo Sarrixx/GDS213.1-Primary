@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0201-E
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: In science, even the natural sciences, there are those who are motivated
+        by other things - fame, fortune, even novelty. Not everyone who studies animals
+        possesses that inherent affinity for nature.
+      duration: 4
+      audio: {fileID: 8300000, guid: cc18a547f91b04e44bac9e486d65e9fd, type: 3}
+    value: 0
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: "Nature is constant - innocent, authentic, and fortuitous. In my
+        experience, that\u2019s more than can be said for most humans."
+      duration: 3.3
+      audio: {fileID: 8300000, guid: f427b7aca21b9b849ab7bd6631d95370, type: 3}
+    value: 0.055
+    valueComparitor: 0

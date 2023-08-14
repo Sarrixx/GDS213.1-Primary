@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Name: C0103-I
+  m_EditorClassIdentifier: 
+  dialogue:
+    speaker: Toby M. Walker
+    subtitle: "That\u2019s why this research is so important. It\u2019s efforts like
+      these that are helping to bring the tortoises back from the brink of extinction."
+    duration: 3.3
+    audio: {fileID: 8300000, guid: ac252f31637e65b45a4f2de3b19cab41, type: 3}

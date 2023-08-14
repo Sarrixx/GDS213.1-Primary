@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0103-H
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      speaker: Toby M. Walker
+      subtitle: A lot of thought has gone into the design of the wetland, and the
+        existing population was first established nearly two years ago.
+      duration: 3.4
+      audio: {fileID: 8300000, guid: 93f474caf9343e34f9a9533d6806e1e7, type: 3}
+    value: 0
+    valueComparitor: 1
+  - dialogue:
+      speaker: Toby M. Walker
+      subtitle: "I\u2019ve been out here for much of the time since the population
+        was initially established nearly two years ago, and every specimen that has
+        been released in that time is still here today."
+      duration: 4
+      audio: {fileID: 8300000, guid: ab5118f0a7982694b9f838a1089ec994, type: 3}
+    value: 0.055
+    valueComparitor: 0

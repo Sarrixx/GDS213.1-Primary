@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Name: C0102-A
+  m_EditorClassIdentifier: 
+  dialogue:
+    speaker: Toby M. Walker
+    subtitle: "Righto Douglas, one of our main methods for monitoring the Western
+      Swamp Tortoises is by using trail cameras I\u2019ve strategically placed through
+      their habitats. It helps us observe their behaviour, feeding patterns, and
+      overall well-being."
+    duration: 4.6
+    audio: {fileID: 8300000, guid: 9792e21bfcff51b4981c77a97cad01df, type: 3}

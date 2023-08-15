@@ -99,6 +99,7 @@
     <None Include="Assets\Art\Galah\Galah_readme.txt" />
     <None Include="Assets\Art\DE Environment\DE Core\Shaders\DEC Shader Standard\DEC Surface Triplanar\Nature Renderer.cginc" />
     <None Include="Assets\Art\DE Environment\DE Core\Shaders\DEC Shader Standard\DEC Cutout Wind\Nature Renderer.cginc" />
+    <None Include="Assets\Art\FreeLabAssets\Shaders\SBS_Mana.shader" />
     <None Include="Assets\Art\DE Environment\DE Core\Shaders\DEC Shader Standard\DEC Surface\DEC Surface Gradient Height.shader" />
     <None Include="Assets\Art\DE Environment\DE Core\Shaders\DEC Shader Standard\DEC Rain\DEC Rain Surface Height Detail Tessellation.shader" />
     <None Include="Assets\Art\DE Environment\DE Core\Shaders\DEC Shader Standard\DEC Surface Triplanar\DEC Surface Triplanar Spherical.shader" />

@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+public enum PatrolPattern { roundRobin, random, pingPong }
+
 public class TortoiseAgent : MonoBehaviour
 {
-    public enum PatrolPattern { roundRobin, random, pingPong }
-
     [SerializeField] private Animator animator;
     [Header("Navigation")]
     [SerializeField] private PatrolPattern pattern;
@@ -65,7 +65,44 @@ public class TortoiseAgent : MonoBehaviour
         GoToNextWaypoint();
     }
 
-    private void FixedUpdate()
+    //private void FixedUpdate()
+    //{
+    //    if (swimming == false)
+    //    {
+    //        //front ray checking for any collisions with layers other than water mask
+    //        if (Physics.Raycast(transform.position + new Vector3(0, waterRayVerticalOffset, 0) + transform.forward * waterRayHorizontalOffset, -transform.up, waterRayDistance, ~waterMask) == false)
+    //        {
+    //            //front ray checking for any collisions with layers in the water mask
+    //            if (Physics.Raycast(transform.position + new Vector3(0, waterRayVerticalOffset, 0) + transform.forward * waterRayHorizontalOffset, -transform.up, waterRayDistance, waterMask) == true)
+    //            {
+    //                //center ray checking for any collisions with layers in the water mask
+    //                if (Physics.Raycast(transform.position + new Vector3(0, waterRayVerticalOffset, 0), -transform.up, waterRayDistance, waterMask) == true)
+    //                {
+    //                    OnWaterEnter();
+    //                }
+    //            }
+    //        }
+    //    }
+    //    else
+    //    {
+    //        //front ray checking for any collisions with layers other than water mask
+    //        if (Physics.Raycast(transform.position + new Vector3(0, waterRayVerticalOffset, 0) + transform.forward * waterRayHorizontalOffset, -transform.up, waterRayDistance, ~waterMask) == true)
+    //        {
+    //            OnWaterExit();
+    //        }
+    //    }
+    //}
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawRay(transform.position + new Vector3(0, waterRayVerticalOffset, 0) + transform.forward * waterRayHorizontalOffset, -transform.up * waterRayDistance);
+        Gizmos.DrawRay(transform.position + new Vector3(0, waterRayVerticalOffset, 0), -transform.up * waterRayDistance);
+        Gizmos.DrawRay(transform.position + new Vector3(0, waterRayVerticalOffset, 0) - transform.forward * waterRayHorizontalOffset, -transform.up * waterRayDistance);
+    }
+
+    // Update is called once per frame
+    void Update()
     {
         if (swimming == false)
         {
@@ -91,19 +128,7 @@ public class TortoiseAgent : MonoBehaviour
                 OnWaterExit();
             }
         }
-    }
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.magenta;
-        Gizmos.DrawRay(transform.position + new Vector3(0, waterRayVerticalOffset, 0) + transform.forward * waterRayHorizontalOffset, -transform.up * waterRayDistance);
-        Gizmos.DrawRay(transform.position + new Vector3(0, waterRayVerticalOffset, 0), -transform.up * waterRayDistance);
-        Gizmos.DrawRay(transform.position + new Vector3(0, waterRayVerticalOffset, 0) - transform.forward * waterRayHorizontalOffset, -transform.up * waterRayDistance);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         if (agent.remainingDistance <= agent.stoppingDistance && idleTimer < 0)
         {
             if (animator != null)

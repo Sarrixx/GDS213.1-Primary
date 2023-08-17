@@ -1,14 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Android;
 using UnityEngine.SceneManagement;
+using UnityEngine.Rendering.PostProcessing;
 
 public class UIManager_Pause : MonoBehaviour
 {
     [SerializeField] private GameObject pauseBGReference;
 
     private bool previousLookState = false;
+    private PostProcessVolume volume;
+    private Bloom bloom;
+    private DepthOfField dof;
+    private MotionBlur blur;
+
+    private void Awake()
+    {
+        GameObject.Find("CameraPost").TryGetComponent(out volume);
+        if(volume != null)
+        {
+            if(volume.profile.TryGetSettings(out bloom) == true)
+            {
+                Debug.Log("Found Bloom");
+            }
+            volume.profile.TryGetSettings(out blur);
+            volume.profile.TryGetSettings(out dof);
+        }
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -83,5 +101,20 @@ public class UIManager_Pause : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+    }
+
+    public void ToggleBloom()
+    {
+        bloom.active = !bloom.active;
+    }
+
+    public void ToggleBlur()
+    {
+        blur.active = !blur.active;
+    }
+
+    public void ToggleDepthOfField()
+    {
+        dof.active = !dof.active;
     }
 }

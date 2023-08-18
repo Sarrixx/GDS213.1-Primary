@@ -5,6 +5,7 @@ public class FoxAgent : MonoBehaviour
 {
     [SerializeField] private Animator animator;
     [Header("Navigation")]
+    [SerializeField] private bool forceIdle = false;
     [SerializeField] private PatrolPattern pattern;
     [SerializeField] private Transform[] waypoints;
     [Header("Idle Behaviour")]
@@ -19,6 +20,8 @@ public class FoxAgent : MonoBehaviour
     private bool pathInverted = false;
     private NavMeshAgent agent;
     private Transform currentTarget;
+
+    public bool ForceIdle { get { return forceIdle; } set {  forceIdle = value; } }
 
     private void Awake()
     {
@@ -39,7 +42,6 @@ public class FoxAgent : MonoBehaviour
                 idleTimeMax = idleTimeMin;
             }
         }
-        //GoToNextWaypoint();
     }
 
     // Update is called once per frame
@@ -91,7 +93,7 @@ public class FoxAgent : MonoBehaviour
             if (idleTimer > idleTime)
             {
                 idleTimer = -1;
-                if(currentTarget == null)
+                if(currentTarget == null && forceIdle == false)
                 {
                     GoToNextWaypoint();
                 }
@@ -135,7 +137,7 @@ public class FoxAgent : MonoBehaviour
         }
     }
 
-    private void GoToNextWaypoint()
+    public void GoToNextWaypoint()
     {
         targetIndex = GetNextTargetIndex();
         if (targetIndex >= 0)

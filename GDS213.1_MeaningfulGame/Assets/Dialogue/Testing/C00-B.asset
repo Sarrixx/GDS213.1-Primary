@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ConversationResponseNode
   characterPrompts:
   - dialogue:
+      isPlayer: 0
       speaker: Toby M. Walker
       subtitle: Something to say?
       duration: 2
@@ -21,6 +22,7 @@ MonoBehaviour:
     value: 0
     valueComparitor: 1
   - dialogue:
+      isPlayer: 0
       speaker: Toby M. Walker
       subtitle: What do you think?
       duration: 2
@@ -28,19 +30,15 @@ MonoBehaviour:
     value: 0
     valueComparitor: 0
   playerResponses:
-  - speaker: Douglas Shaw
+  - isPlayer: 0
+    speaker: Douglas Shaw
     subtitle: RESERVED RESPONSE SUBTITLE
     duration: 2
     audio: {fileID: 0}
     responseCaption: Reserved
     valueModifier: -0.71
-  - speaker: Douglas Shaw
-    subtitle: CAUTIOUS RESPONSE SUBTITLE
-    duration: 2
-    audio: {fileID: 0}
-    responseCaption: Cautious
-    valueModifier: 0
-  - speaker: Douglas Shaw
+  - isPlayer: 0
+    speaker: Douglas Shaw
     subtitle: OPEN RESPONSE SUBTITLE
     duration: 2
     audio: {fileID: 0}

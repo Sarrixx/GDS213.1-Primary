@@ -30,6 +30,11 @@ public class ConversationTrigger : MonoBehaviour
         TrackConversation();
     }
 
+    public void Track()
+    {
+        TrackConversation();
+    }
+
     public bool TrackConversation()
     {
         if (tracked == false && conversationData != null && conversationData.Conversation.Length > 0)

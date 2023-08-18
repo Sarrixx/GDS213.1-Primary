@@ -10,10 +10,18 @@ public class GalahAgent : MonoBehaviour
     [SerializeField] private float flightSpeedMultiplier;
     [SerializeField] private float rotationSpeed;
     [SerializeField] private GalahFlock flockManager;
+    [SerializeField] private float groundAudioMinTime;
+    [SerializeField] private float groundAudioMaxTime;
+    [SerializeField] private float flightAudioMinTime;
+    [SerializeField] private float flightAudioMaxTime;
+    [SerializeField] private AudioClip[] groundClips;
+    [SerializeField] private AudioClip[] flyingClips;
 
     private float walkSpeed = 0;
     private float time = 0;
     private float timer = -1;
+    private float audioTime = 0;
+    private float audioTimer = -1;
     private bool flying = false;
     private bool landing = false;
     private bool takingOff = false;
@@ -90,6 +98,7 @@ public class GalahAgent : MonoBehaviour
             }
             //SetAnimator("idle");
             WalkToRandomPosition();
+            audioTimer = 0;
         }
         else
         {
@@ -176,6 +185,22 @@ public class GalahAgent : MonoBehaviour
                     }
                 }
                     Debug.DrawRay(transform.position, Vector3.down * 0.9f);
+            }
+        }
+
+        if(audioTimer >= 0)
+        {
+            audioTimer += Time.deltaTime;
+            if(audioTimer >= audioTime)
+            {
+                if(flying == true)
+                {
+                    PlayFlyingClip(false);
+                }
+                else
+                {
+                    PlayGroundClip(false);
+                }
             }
         }
 
@@ -373,6 +398,7 @@ public class GalahAgent : MonoBehaviour
             takingOff = true;
             SetAnimator("takeoff");
             TransitionAnimation("flying", 0.8f, flying == false);
+            PlayFlyingClip(true);
             return true;
         }
         return false;
@@ -386,8 +412,39 @@ public class GalahAgent : MonoBehaviour
             //flying = false;
             landingPoint = flockManager.GetRandomPositionInBounds();
             landing = true;
+            PlayGroundClip(true);
             return true;
         }
         return false;
+    }
+
+    private void PlayGroundClip(bool overrideAudio)
+    {
+        if(aSrc.isPlaying == false && groundClips.Length > 0)
+        {
+            aSrc.clip = groundClips[Random.Range(0, groundClips.Length)];
+            aSrc.Play();
+            audioTime = Random.Range(groundAudioMinTime, groundAudioMaxTime);
+            if(audioTime < aSrc.clip.length)
+            {
+                audioTime = aSrc.clip.length;
+            }
+            audioTimer = 0;
+        }
+    }
+
+    private void PlayFlyingClip(bool overrideAudio)
+    {
+        if((aSrc.isPlaying == false || overrideAudio == true) && flyingClips.Length > 0)
+        {
+            aSrc.clip = groundClips[Random.Range(0, flyingClips.Length)];
+            aSrc.Play();
+        }
+        audioTime = Random.Range(flightAudioMinTime, flightAudioMaxTime);
+        if (aSrc.clip != null && audioTime < aSrc.clip.length)
+        {
+            audioTime = aSrc.clip.length;
+        }
+        audioTimer = 0;
     }
 }

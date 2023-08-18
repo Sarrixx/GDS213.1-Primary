@@ -71,7 +71,7 @@
     <Compile Include="Assets\Scripts\DialogueManager.cs" />
     <Compile Include="Assets\Art\Ham_Radio\Ham_Transciever\Scripts\_Display_Anim_HRT.cs" />
     <Compile Include="Assets\Scripts\Conversation.cs" />
-    <Compile Include="Assets\UIManager_Pause.cs" />
+    <Compile Include="Assets\Scripts\UIManager_Pause.cs" />
     <Compile Include="Assets\Art\Galah\Scripts\Galah.cs" />
     <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Art\Ham_Radio\Ham_Transciever\Scripts\_Lamps_Anim_HRT.cs" />
@@ -84,6 +84,7 @@
     <Compile Include="Assets\Art\DE Environment\AE Alexander Elert\AE Core\Scripts\AE_GO_Simplifiers.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\FoxAgent.cs" />
+    <Compile Include="Assets\Scripts\TargetTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\DE Environment\DE Core\Shaders\DEC Shader Standard\DEC Surface\Nature Renderer.cginc" />

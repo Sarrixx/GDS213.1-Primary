@@ -9,13 +9,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
   m_Name: C0101-C
   m_EditorClassIdentifier: 
-  dialogue:
-    isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: "Thanks, it\u2019s nice to finally connect! The trip was long and uneventful,
-      I\u2019m glad to be here now. How was your morning?"
-    duration: 3.5
-    audio: {fileID: 8300000, guid: d175802930957724bb539e7316f54ff3, type: 3}
+  characterPrompts:
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: "Cheers, it\u2019s nice to finally be here."
+      duration: 1
+      audio: {fileID: 8300000, guid: c01ff229b50b0404da9a904abfe3ad90, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: Yeah it was alright, I haven't sat in one place for that long in a
+      good while.
+    duration: 1
+    audio: {fileID: 8300000, guid: 98d57d054f1117f4d8651723380a7c06, type: 3}
+    responseCaption: A long trip.
+    valueModifier: -0.03
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: It was... long. A lot of time to think.
+    duration: 1
+    audio: {fileID: 8300000, guid: 2ea25d5819846684abd50f725d18f5c2, type: 3}
+    responseCaption: Time to think.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "A bit bittersweet to be honest, I\u2019ve been through a fair bit
+      this year. Wasn\u2019t really sure how to feel about leaving Perth."
+    duration: 1
+    audio: {fileID: 8300000, guid: 1288a9e18ee672747b1acb62ee2eac5c, type: 3}
+    responseCaption: Bittersweet.
+    valueModifier: 0.03

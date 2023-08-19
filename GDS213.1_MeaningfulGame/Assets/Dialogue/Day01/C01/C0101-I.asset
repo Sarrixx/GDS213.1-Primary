@@ -9,12 +9,43 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
   m_Name: C0101-I
   m_EditorClassIdentifier: 
-  dialogue:
-    speaker: Toby M. Walker
-    subtitle: "I mean there were some good times for sure, but I can\u2019t say it\u2019s
-      an experience that I miss."
-    duration: 3
-    audio: {fileID: 8300000, guid: 37f3709cae19a0f478e4968b94a9d7ff, type: 3}
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "Anyway, may I officially welcome you to the Wilgadjny National Park.
+        What do you think of the place? It\u2019s pretty beautiful don\u2019t you
+        think?"
+      duration: 1
+      audio: {fileID: 8300000, guid: dbd09f41c24782345ba7a177a2af018a, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "Yeah it\u2019s definitely a nice place, there\u2019s some pretty thick
+      bushland around here. I bet it gets really dry in summer."
+    duration: 1
+    audio: {fileID: 8300000, guid: 57a635ae76a7949468183449b12a2f08, type: 3}
+    responseCaption: Thick bush.
+    valueModifier: -0.05
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "Undeniably beautiful. But I\u2019d be lying if I said I\u2019m not
+      a little anxious being surrounded by all these Eucalyptus trees."
+    duration: 1
+    audio: {fileID: 8300000, guid: 4b83ca819fe656b438e339c803682c40, type: 3}
+    responseCaption: Eucalypt trees.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: Absolutely, I can see why the tortoises love it here. Being in the
+      middle of a Eucalypt forest, though, invokes a bit of anxiety for me - bushfires
+      and all that...
+    duration: 1
+    audio: {fileID: 8300000, guid: c3a8db0b15e048343b33e6c2f4fcc901, type: 3}
+    responseCaption: Anxiety.
+    valueModifier: 0.05

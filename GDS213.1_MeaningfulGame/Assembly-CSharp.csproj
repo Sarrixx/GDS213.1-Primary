@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\GalahAgent.cs" />
     <Compile Include="Assets\Scripts\ConversationDecisionNode.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\TargetTrigger.cs" />
     <Compile Include="Assets\Scripts\GalahFlock.cs" />
     <Compile Include="Assets\Scripts\CameraConsole.cs" />
     <Compile Include="Assets\Scripts\UIManager_HUD.cs" />
@@ -84,7 +85,6 @@
     <Compile Include="Assets\Art\DE Environment\AE Alexander Elert\AE Core\Scripts\AE_GO_Simplifiers.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\FoxAgent.cs" />
-    <Compile Include="Assets\Scripts\TargetTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Art\DE Environment\DE Core\Shaders\DEC Shader Standard\DEC Surface\Nature Renderer.cginc" />

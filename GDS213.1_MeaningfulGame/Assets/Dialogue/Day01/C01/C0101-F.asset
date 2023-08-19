@@ -9,41 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
   m_Name: C0101-F
   m_EditorClassIdentifier: 
-  characterPrompts:
-  - dialogue:
-      isPlayer: 0
-      speaker: Toby M. Walker
-      subtitle: Nature has its own rhythm here. I feel more at home out here than
-        I do in my own house. So, what made you interested in this field research?
-      duration: 3.2
-      audio: {fileID: 8300000, guid: 1ce31c20f80412a4d887976c48d4e434, type: 3}
-    value: 0
-    valueComparitor: 0
-  playerResponses:
-  - isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: Honestly, I just really like Testudines.
-    duration: 4.3
-    audio: {fileID: 8300000, guid: 7294467d083b1b64389ecf3af404bb3c, type: 3}
-    responseCaption: I like turtles.
-    valueModifier: -0.15
-  - isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: After University I was pretty exhausted, and this opportunity seemed
-      like a good way to recharge while keeping productive.
-    duration: 3.5
-    audio: {fileID: 8300000, guid: 9428f5bdf5711ba4d80649c42010a651, type: 3}
-    responseCaption: Recharge & relax.
-    valueModifier: 0.101
-  - isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: I really needed a change of scenery once I finished University, but
-      I felt guilty taking any time off. So this is the closest thing to a break
-      that I could justify to myself.
-    duration: 4.5
-    audio: {fileID: 8300000, guid: 42a598eb1a3defd43ab46296d42e032c, type: 3}
-    responseCaption: Change of scenery.
-    valueModifier: 0.409
+  dialogue:
+    isPlayer: 1
+    speaker: Douglas
+    subtitle: "So I\u2019m not the only new kid on the block today! I\u2019m disappointed
+      to have just missed the release though."
+    duration: 1
+    audio: {fileID: 8300000, guid: a6f35a0e4032a93409bbcd5d89ef9c62, type: 3}

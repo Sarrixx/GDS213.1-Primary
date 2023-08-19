@@ -9,23 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
   m_Name: C0101-G
   m_EditorClassIdentifier: 
-  decisions:
-  - dialogue:
-      isPlayer: 0
-      speaker: Toby M. Walker
-      subtitle: Righto, fair enough. I like turtles too!
-      duration: 4
-      audio: {fileID: 8300000, guid: 38927002fc27a6142aaaae314b52ae17, type: 3}
-    value: -0.001
-    valueComparitor: 1
-  - dialogue:
-      isPlayer: 0
-      speaker: Toby M. Walker
-      subtitle: Oh mate don't worry, I can relate to that experience.
-      duration: 3.2
-      audio: {fileID: 8300000, guid: 7d014aef488fc56408702fe41951c863, type: 3}
-    value: 0.001
-    valueComparitor: 0
+  dialogue:
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: The release of the captive-bred specimens is a pretty monumental occasion,
+      and rare... not to disappoint you any further or anything!
+    duration: 1
+    audio: {fileID: 8300000, guid: 3519dc59a7898a74490346cd72f895cc, type: 3}

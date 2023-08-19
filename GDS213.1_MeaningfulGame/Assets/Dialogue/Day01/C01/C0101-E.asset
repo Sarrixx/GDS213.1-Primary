@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: C0101-E
   m_EditorClassIdentifier: 
   dialogue:
-    isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: Good to know I'm not the only freshman on campus! This is a beautiful
-      area, it feels good to be out here.
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: It was actually pretty exciting. Had the conservation team down here
+      from Perth Zoo alongside some community groups, they released a new Swamp Tortoise
+      into the wetland.
     duration: 3.5
-    audio: {fileID: 8300000, guid: 97cf0ba714909ff45ad3d9606194e9f1, type: 3}
+    audio: {fileID: 8300000, guid: 107ffcf90f41e294882e125ad6fc7f3b, type: 3}

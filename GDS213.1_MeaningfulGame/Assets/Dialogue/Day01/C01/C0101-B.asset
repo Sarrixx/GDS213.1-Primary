@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: C0101-B
   m_EditorClassIdentifier: 
   dialogue:
+    isPlayer: 0
     speaker: Toby M. Walker
-    subtitle: "Ah, hello Douglas! Good to finally make your acquaintance mate, welcome
-      to the team. How was your trip down from Perth?\t"
-    duration: 3
-    audio: {fileID: 8300000, guid: dfdc64874785d364091612a5919052b4, type: 3}
+    subtitle: Ah, Douglas mate! Good to hear from you again. How was your trek out
+      here?
+    duration: 1
+    audio: {fileID: 8300000, guid: f87c537437115074ab2089e28781b6e1, type: 3}

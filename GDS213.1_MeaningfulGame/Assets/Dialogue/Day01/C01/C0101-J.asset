@@ -9,14 +9,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
   m_Name: C0101-J
   m_EditorClassIdentifier: 
-  dialogue:
-    isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: "Yeah it\u2019s not something I could do again, for a while at least.
-      For now I\u2019m looking forward to spending some time rejuvenating here in
-      the wild."
-    duration: 3.3
-    audio: {fileID: 8300000, guid: ca43df9facf08d44f9d8a7efcfc6cc87, type: 3}
+  decisions:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "Don\u2019t worry mate, the only fires that happen around here are
+        controlled burns."
+      duration: 1
+      audio: {fileID: 8300000, guid: 9b68c4086043f9b4e956db4a94c6f7b4, type: 3}
+    value: 0
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "Oh, right...sorry to hear that mate. Don\u2019t stress about fire
+        here though, DFES only does planned burns and they put the word out well
+        ahead of time."
+      duration: 1
+      audio: {fileID: 8300000, guid: 0696cd5c5e9b2474f9fa76edc8da72aa, type: 3}
+    value: 0.001
+    valueComparitor: 0

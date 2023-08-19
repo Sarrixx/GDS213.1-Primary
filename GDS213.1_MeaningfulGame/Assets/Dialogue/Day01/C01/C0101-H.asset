@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: C0101-H
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: It feels like my own University days were only yesterday. Running late
-      for classes, the endless research papers - it was a whirlwind of deadlines
-      and caffeine-fueled sleepless nights.
-    duration: 3.7
-    audio: {fileID: 8300000, guid: 81bc7d86ab1cb9c43a3481c77b2cb923, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "But that\u2019s alright mate you\u2019re out here for a while, you\u2019ll
+      have plenty of time to get to know the torts."
+    duration: 1
+    audio: {fileID: 8300000, guid: ac727a925bf55354aa45bdf28c0f5815, type: 3}

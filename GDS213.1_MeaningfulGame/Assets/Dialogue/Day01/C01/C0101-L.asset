@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: C0101-L
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: "That station hasn\u2019t had anyone residing there for a while, so
-      you\u2019ll need to turn the console on. It should be turned off at the socket."
-    duration: 3.2
-    audio: {fileID: 8300000, guid: ff7b6bfd9c0898b4bbc7f1cf8f1ffe26, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "Also, I\u2019m sure you\u2019ll be too busy to think about fire anyway."
+    duration: 1
+    audio: {fileID: 8300000, guid: cf3dc18ca661d364e8290bb800b28e20, type: 3}

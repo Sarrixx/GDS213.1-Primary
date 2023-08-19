@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: C0101-D
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: It was pretty exciting actually. Earlier on we had some people from
-      Perth Zoo on site. A new addition to our population of Western Swamp Tortoises
-      was released into the wetland. So you aren't the only newcomer today!
-    duration: 4.2
-    audio: {fileID: 8300000, guid: 70966b685cbf8094d98bbe7d0e0cb091, type: 3}
+    isPlayer: 1
+    speaker: Douglas
+    subtitle: "But I feel pretty good now that I\u2019m here and out of the car!
+      Anyway, how\u2019ve things been running here today?"
+    duration: 1
+    audio: {fileID: 8300000, guid: d4f835e0ffbd18a42ab9211f26ef95d4, type: 3}

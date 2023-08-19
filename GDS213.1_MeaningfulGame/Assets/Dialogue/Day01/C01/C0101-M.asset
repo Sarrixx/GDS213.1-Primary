@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: C0101-M
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: Then I'll show you the ropes. It may take a bit of time to familiarise
-      yourself with the console interface, but you'll get the hang of it quickly.
-    duration: 3.4
-    audio: {fileID: 8300000, guid: 38a05bba8aba4cf45b1c0892e38669c0, type: 3}
+    isPlayer: 1
+    speaker: Douglas
+    subtitle: "I hope so! Speaking of which, I\u2019m keen to get stuck into it,
+      let me get my eyes on some torts!"
+    duration: 1
+    audio: {fileID: 8300000, guid: a6e853a23f269a444a0571adaa4bb535, type: 3}

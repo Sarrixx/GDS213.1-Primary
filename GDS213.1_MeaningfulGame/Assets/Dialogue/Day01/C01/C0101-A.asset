@@ -15,7 +15,7 @@ MonoBehaviour:
   dialogue:
     isPlayer: 1
     speaker: Douglas Shaw
-    subtitle: Hello, Dr. Walker? This is Douglas, the new researcher. I've just arrived
-      at the research station.
-    duration: 3
-    audio: {fileID: 8300000, guid: 6079b955bdb79784280861fc4e7b4827, type: 3}
+    subtitle: Hello? Dr. Walker? This is Douglas, the new research assistant. Checking
+      in for my first day.
+    duration: 1
+    audio: {fileID: 8300000, guid: 6912e0f0c26074b4ea60e806577e8ec1, type: 3}

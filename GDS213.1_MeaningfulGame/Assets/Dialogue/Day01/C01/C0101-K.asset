@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: C0101-K
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: "Actually speaking of the wild, you should check up on our newest resident
-      if he\u2019s visible - it\u2019s a good excuse to get familiar with the camera
-      console."
-    duration: 3.3
-    audio: {fileID: 8300000, guid: eb182cbbd84573b4e8b515f643f71396, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "There should still be a few weeks to go before we need to worry about
+      bushfires anyway. There\u2019s been a couple of good late spring rains as well
+      recently, so everything is pretty lush at the moment."
+    duration: 1
+    audio: {fileID: 8300000, guid: 414e84dc3a458054692c85532b532e6a, type: 3}

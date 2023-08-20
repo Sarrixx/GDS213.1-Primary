@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: C0102-B
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: Throughout the day I'll be out in the field. As the assistant in this
-      research, your job will be monitoring the environment and relaying your observations
-      to me.
-    duration: 3.7
-    audio: {fileID: 8300000, guid: d84463e2e6d5b7941b90b4aa984f4796, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: They provide us with valuable insights without disturbing the tortoises
+      in their natural habitat.
+    duration: 1
+    audio: {fileID: 8300000, guid: 574db534956d8424785ee05b9b310dd5, type: 3}

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: C0103-C
   m_EditorClassIdentifier: 
   dialogue:
-    isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: Ah yeah I think this is the one according to the information on the
-      console here. It's walking along the water bank, investigating the habitat
-      right now.
-    duration: 3.7
-    audio: {fileID: 8300000, guid: 325e77b84cc12ae4abe9b3700e79a221, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "But it\u2019s a fairly small specimen in comparison to the adults
+      - maybe about 12 centimetres. It will be hard to distinguish the size from
+      the camera though."
+    duration: 1
+    audio: {fileID: 8300000, guid: aebf2fcee809e4d4cb06483caeb4dc0a, type: 3}

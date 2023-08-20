@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: C0103-D
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: "Sounds like it's settling in well! We\u2019ll need to keep a close
-      watch on it over the next week or so."
-    duration: 3
-    audio: {fileID: 8300000, guid: 5878e5c6493a32944a4088acf6eb5ad9, type: 3}
+    isPlayer: 1
+    speaker: Douglas
+    subtitle: "Yeah I think it\u2019s probably about that size, it doesn\u2019t look
+      very big. It's walking along the water bank, investigating the habitat right
+      now."
+    duration: 1
+    audio: {fileID: 8300000, guid: 29f48cacb26002f448c6be0c29dfe8ba, type: 3}

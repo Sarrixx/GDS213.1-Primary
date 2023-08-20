@@ -9,12 +9,41 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
   m_Name: C0103-I
   m_EditorClassIdentifier: 
-  dialogue:
-    speaker: Toby M. Walker
-    subtitle: "That\u2019s why this research is so important. It\u2019s efforts like
-      these that are helping to bring the tortoises back from the brink of extinction."
-    duration: 3.3
-    audio: {fileID: 8300000, guid: ac252f31637e65b45a4f2de3b19cab41, type: 3}
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: It was created specifically with the purpose of establishing a new
+        wild population of Western Swamp Tortoises, and helping them to thrive.
+      duration: 1
+      audio: {fileID: 8300000, guid: cf18fbcfcd74ef44b9ba5d3416281645, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "Given they\u2019ve been doing so well this far, it sounds like this
+      is a good place for them. Hopefully nothing changes that."
+    duration: 1
+    audio: {fileID: 8300000, guid: be2c19e567281de468ba233339d91b0e, type: 3}
+    responseCaption: A good place.
+    valueModifier: -0.402
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: It seems like the area holds a lot of hope for their future, but nature
+      can be incredibly unforgiving.
+    duration: 1
+    audio: {fileID: 8300000, guid: 2e885e38615dfe14a92066135eb1f932, type: 3}
+    responseCaption: Nature is unforgiving.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "I\u2019m sure the tortoises will thrive, but I can\u2019t help but
+      think that even a personal paradise can\u2019t protect you from everything."
+    duration: 1
+    audio: {fileID: 8300000, guid: 613beec35887ba849b01918942242d95, type: 3}
+    responseCaption: Tortoises will thrive.
+    valueModifier: 0.409

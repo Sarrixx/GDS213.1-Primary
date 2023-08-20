@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: C0103-E
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: The Wilgadjny National Park is one of the most biodiverse places in
-      all of Australia, and is a haven for a range of vulnerable and endangered species.
-    duration: 3.7
-    audio: {fileID: 8300000, guid: 8fabb7a1756ac4c43bc7612f06df620b, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "Sounds like it's settling in well! We\u2019ll need to keep a close
+      watch on it over the next week or so."
+    duration: 1
+    audio: {fileID: 8300000, guid: 53e785d9fde8d4f468e3a628c4860929, type: 3}

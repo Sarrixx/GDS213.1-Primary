@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: C0102-H
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: "Indeed! The cameras we use are equipped with motorised pan-tilt functionality,
-      allowing you to adjust their alignment remotely using the console\u2019s joystick.
-      It gives us the flexibility to observe specific areas of interest or follow
-      the tortoise's movements."
-    duration: 4.5
-    audio: {fileID: 8300000, guid: eeb8c78041afc124db2d36cb7d179fc0, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "It doesn\u2019t end there! The console should also have a zoom button
+      on it somewhere. Hold it in to focus on specific details in the habitat."
+    duration: 1
+    audio: {fileID: 8300000, guid: 30038d4529343b04a93e1306b9507025, type: 3}

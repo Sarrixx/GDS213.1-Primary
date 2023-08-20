@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: C0102-M
   m_EditorClassIdentifier: 
   dialogue:
-    isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: "Well, I\u2019ll start putting the expensive equipment to good use
-      by locating the new tortoise."
-    duration: 3
-    audio: {fileID: 8300000, guid: 18ac16e36545e7848a5507744310ccfd, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "Alright well let\u2019s get you started with these cameras. I think
+      trying to find the new resident tortoise is a good way to begin."
+    duration: 1
+    audio: {fileID: 8300000, guid: 4d0525de20d73e04bb0d5661806aa073, type: 3}

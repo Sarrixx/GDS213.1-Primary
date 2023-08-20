@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0103-J
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "A lot of thought has gone into the design of the wetland. It\u2019s
+        been constructed to give them the best chance possible."
+      duration: 1
+      audio: {fileID: 8300000, guid: 9de3f955118f0f246bab3cddc109d8b6, type: 3}
+    value: 0.01
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "Wow, that\u2019s a little...dystopian."
+      duration: 1
+      audio: {fileID: 8300000, guid: 7a1006daa7c82e34cb8c84296045b22f, type: 3}
+    value: 0.01
+    valueComparitor: 0

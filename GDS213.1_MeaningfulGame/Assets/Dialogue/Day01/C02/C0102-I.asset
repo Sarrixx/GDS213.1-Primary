@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: C0102-I
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: You can also zoom in or out using the zoom controls located on the
-      console. It allows you to focus on specific details in the habitat.
-    duration: 3.7
-    audio: {fileID: 8300000, guid: 5817c4013b1ffda408850fd10d52c433, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "The cameras also have low quality microphones, so you\u2019ll be able
+      to hear audio when viewing each camera feed."
+    duration: 1
+    audio: {fileID: 8300000, guid: 68517188b48b82b48911aaedf68f2835, type: 3}

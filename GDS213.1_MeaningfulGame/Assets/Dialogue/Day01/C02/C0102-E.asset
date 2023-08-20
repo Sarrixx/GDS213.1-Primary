@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: C0102-E
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: We've set up the console so you can access the camera feeds and navigate
-      through different angles and areas.
-    duration: 3
-    audio: {fileID: 8300000, guid: 07abc73e30e559443a4c3df7b5ee847c, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: The cameras we use are also equipped with motorised pan-tilt functionality,
+      allowing a little bit of limited movement - which you also remotely control
+      from the console.
+    duration: 1
+    audio: {fileID: 8300000, guid: febe373ea3038264f9954a5e3c7cf214, type: 3}

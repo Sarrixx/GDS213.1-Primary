@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: C0105-B
   m_EditorClassIdentifier: 
   dialogue:
-    isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: No problem, I can handle it.
-    duration: 2.5
-    audio: {fileID: 8300000, guid: 451060617c7604a41a5ee80ddfa29b67, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: It might seem like a menial job, but someone has to do it. Research
+      like this is a collaborative effort, it takes many hands to make light work.
+    duration: 1
+    audio: {fileID: 8300000, guid: a88ea19b61ed02345a40880510c5ea93, type: 3}

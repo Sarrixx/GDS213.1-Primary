@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: C0102-N
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: "Great! The new resident was released near Marker's Well a beautiful
-      area with lush vegetation and a small pond. It provides an ideal habitat for
-      them to thrive. There\u2019s a trail camera out there that it\u2019s likely
-      to be in view of."
-    duration: 4.5
-    audio: {fileID: 8300000, guid: 7f79ca4af51f8cf4498710ceac8e353a, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "It was released near Marker\u2019s Well, a beautiful area with lush
+      vegetation and a decently sized wetland. It\u2019s been designed to be an ideal
+      habitat for the tortoises."
+    duration: 1
+    audio: {fileID: 8300000, guid: b7cbd469e6b44864aada83b796ad30b6, type: 3}

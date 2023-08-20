@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: C0102-J
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: "The cameras also have low quality microphones, so you\u2019ll be able
-      to hear sounds in the vicinity when viewing each camera feed."
-    duration: 3.4
-    audio: {fileID: 8300000, guid: 63ec4ae97d2ea2e4eb4565a385eacd6e, type: 3}
+    isPlayer: 1
+    speaker: Douglas
+    subtitle: "There\u2019s only two camera feeds?"
+    duration: 1
+    audio: {fileID: 8300000, guid: 21439c3b016317e4fbe7bd36f7695b97, type: 3}

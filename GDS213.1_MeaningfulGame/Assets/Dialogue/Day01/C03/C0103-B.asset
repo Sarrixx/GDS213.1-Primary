@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: C0103-B
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: "It\u2019s a fairly small specimen in comparison to the adults, but
-      you\u2019ll easily spot the tracking device on its shell. The device not only
-      tracks the movements of the specimen, but also relays biometric data for analysis."
-    duration: 4.6
-    audio: {fileID: 8300000, guid: 5cd1cce946b9fe544bd93f5ee48e911c, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "I\u2019d be surprised if it was a different one, it hasn\u2019t been
+      long since it was released - the others will be off in the water feeding."
+    duration: 1
+    audio: {fileID: 8300000, guid: 0da0cd3c196b3a2478abb28b6251fcca, type: 3}

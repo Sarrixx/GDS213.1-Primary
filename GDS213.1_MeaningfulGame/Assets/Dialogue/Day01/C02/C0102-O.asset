@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: "Noted. I'll prioritise monitoring the pond and surroundings at Marker's
-      Well. I\u2019ll let you know when I\u2019ve sighted the specimen."
-    duration: 3
-    audio: {fileID: 8300000, guid: 4d7839a258635044f8ad069aafeba80a, type: 3}
+    speaker: Douglas
+    subtitle: "Marker\u2019s Well, alright. I\u2019ll let you know when I\u2019ve
+      sighted the specimen."
+    duration: 1
+    audio: {fileID: 8300000, guid: e3fb757862e41d241a830e6ec7deb39f, type: 3}

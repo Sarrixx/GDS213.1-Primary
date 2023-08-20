@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: C0105-A
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: So that's it really Douglas, nothing too complex. It might seem like
-      a menial job, but someone has to do it. Research like this is a collaborative
-      effort, it takes many hands to make light work.
-    duration: 3.8
-    audio: {fileID: 8300000, guid: 738eff59848a5554696f158bd3bb55b8, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "So that's it really Douglas, nothing too complex. Basically you\u2019ll
+      just monitor the environment, and we\u2019ll chat throughout the day."
+    duration: 1
+    audio: {fileID: 8300000, guid: 50ea07cbdea2b8d49be58284bf1bc7e5, type: 3}

@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: C0103-F
   m_EditorClassIdentifier: 
   dialogue:
-    isPlayer: 1
-    speaker: Dougle Shaw
-    subtitle: I can see why, this area seems really lush and protected.
-    duration: 2
-    audio: {fileID: 8300000, guid: 851944fa7f6a73b4d89e2f06b63eeee7, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: The Wilgadjny National Park is one of the most biodiverse places in
+      all of Western Australia, and is a haven for a range of vulnerable and endangered
+      species.
+    duration: 1
+    audio: {fileID: 8300000, guid: 0123a2424a6a3ec4e809d0148b7e94c6, type: 3}

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: C0102-C
   m_EditorClassIdentifier: 
   dialogue:
-    isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: "Thats cool with me. So, I\u2019ll be relying on the cameras to keep
-      track of the tortoises?"
-    duration: 3
-    audio: {fileID: 8300000, guid: b177902caef25c343939be16c0d07925, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "As an assistant in this research, you\u2019ll be monitoring the environment
+      and relaying your observations to me, while I\u2019m out in the field."
+    duration: 1
+    audio: {fileID: 8300000, guid: f21b09257d8412548a9479ef99548903, type: 3}

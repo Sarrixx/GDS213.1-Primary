@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: C0102-L
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: Trail cameras are often used in field work, but these cameras are admittedly
-      quite advanced in comparison. We recently received some extra funding due to
-      the critically endangered status of the tortoise, which allowed us to invest
-      in some more expensive equipment.
-    duration: 4.5
-    audio: {fileID: 8300000, guid: 1f87a2d3199e55e45b5513ac9ab4c5d7, type: 3}
+    isPlayer: 1
+    speaker: Douglas
+    subtitle: "I\u2019m not surprised, but it\u2019s money well spent if it helps
+      save the tortoises."
+    duration: 1
+    audio: {fileID: 8300000, guid: 82b9a37b133235f41a0314f1a5a67bc1, type: 3}

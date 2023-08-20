@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: C0104-A
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: The National Park is a huge area of land spanning hundreds of hectares.
-      These cameras only show a very small locale surrounding Markers Well, where
-      the tortoises reside.
-    duration: 3.4
-    audio: {fileID: 8300000, guid: a7eb420095ff94b49a7902d34e63dc40, type: 3}
+    isPlayer: 1
+    speaker: Douglas
+    subtitle: Is the entire national park just one huge Eucalyptus forest?
+    duration: 1
+    audio: {fileID: 8300000, guid: 25c269af7bcc6b34bb76126f458a593b, type: 3}

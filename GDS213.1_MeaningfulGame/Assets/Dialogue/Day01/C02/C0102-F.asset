@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: C0102-F
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Toby M. Walker
-    subtitle: The cameras we use actually have some limited movement capabilities,
-      and can be remotely realigned.
-    duration: 3
-    audio: {fileID: 8300000, guid: cc5be67be9fb56d43b6540ed1fa5c749, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: That will give you the flexibility to observe specific areas of interest
+      or follow the tortoise's movements.
+    duration: 1
+    audio: {fileID: 8300000, guid: 33b6834690265a44f98de7ae6617eb4a, type: 3}

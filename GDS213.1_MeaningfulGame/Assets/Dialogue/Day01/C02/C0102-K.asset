@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: C0102-K
   m_EditorClassIdentifier: 
   dialogue:
-    isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: This is really cool, is this standard technology for this kind of work?
-    duration: 3
-    audio: {fileID: 8300000, guid: 7acbdc14e1b461847a8405d8076289e8, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "They\u2019re the only ones we need! These cameras were expensive."
+    duration: 1
+    audio: {fileID: 8300000, guid: 6c989c178e51ee64b80394774cf35ed5, type: 3}

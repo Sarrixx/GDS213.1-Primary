@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     isPlayer: 1
-    speaker: Douglas Shaw
-    subtitle: "I\u2019ve spotted a tortoise at Marker\u2019s Well, I\u2019m not sure
-      if it was the one released this morning though - how do I tell?"
-    duration: 3.5
-    audio: {fileID: 8300000, guid: d4b3b4ab26817e64fa7b784bb54748b0, type: 3}
+    speaker: Douglas
+    subtitle: "I\u2019ve spotted a tortoise at Marker\u2019s Well, how do I tell
+      if it\u2019s the one that was released this morning though?"
+    duration: 1
+    audio: {fileID: 8300000, guid: 1cc7e5fae7b62b747aa0efb02bccfc29, type: 3}

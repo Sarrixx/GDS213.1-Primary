@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0703-B
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: "I\u2019m not sure what the future holds, but I think I\u2019ve got
+        a bit of a new perspective on things."
+      duration: 1
+      audio: {fileID: 8300000, guid: ad9d613a5825567448e76892205e07e6, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: This has been an enlightening experience. Despite also being terrifying,
+        the whole fire experience was actually kind of...cathartic, in a way.
+      duration: 1
+      audio: {fileID: 8300000, guid: 5353a5494161fe0408b30f568dc35954, type: 3}
+    value: 0.001
+    valueComparitor: 0

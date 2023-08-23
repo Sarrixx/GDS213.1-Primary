@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Name: C0504-A
+  m_EditorClassIdentifier: 
+  dialogue:
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: I went outside to check the generator not long ago, and I noticed the
+      windscreen of the research ute is coated with ash. It keeps catching the wind
+      and floating all this way.
+    duration: 1
+    audio: {fileID: 8300000, guid: 066537b8acea08d48ad21457dc2835c6, type: 3}

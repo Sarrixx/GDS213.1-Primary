@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Name: C0501-A
+  m_EditorClassIdentifier: 
+  dialogue:
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: Douglas, come in. I don't want to cause alarm, but I think we could
+      have an emergency on our hands.
+    duration: 1
+    audio: {fileID: 8300000, guid: 7a03a5bcce80ef340b83959c27b011b3, type: 3}

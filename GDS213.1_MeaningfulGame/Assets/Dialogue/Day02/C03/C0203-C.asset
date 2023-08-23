@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: C0203-C
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Dr. Walker
-    subtitle: These tortoises are one of the most endangered reptiles in the world.
-      Between ninteen sixty and ninteen eighty there was around a nintey percent
-      decline in their population.
-    duration: 3.2
-    audio: {fileID: 8300000, guid: 91690c5521fda714390863412de508fc, type: 3}
+    isPlayer: 1
+    speaker: Douglas
+    subtitle: "You said last night you were out here for that initial release, does
+      that mean you\u2019ve been out here ever since?"
+    duration: 1
+    audio: {fileID: 8300000, guid: b47be76c356c0dc4aa8ddce851eeb5f4, type: 3}

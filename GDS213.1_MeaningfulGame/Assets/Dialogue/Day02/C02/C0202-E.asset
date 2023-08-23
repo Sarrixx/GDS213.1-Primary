@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: C0202-E
   m_EditorClassIdentifier: 
   dialogue:
+    isPlayer: 0
     speaker: Dr. Walker
-    subtitle: The design of this area was considered for a long time so that it would
-      maximise the chances of the population quickly establishing themselves after
-      release. It was important to ensure it protects them from any potential climate-based
-      threats, alongside natural predators.
-    duration: 3.8
-    audio: {fileID: 8300000, guid: f2cb71b6edde7b145a1f3dbb3da1eb1f, type: 3}
+    subtitle: "And given that for much of winter the water temperature is lower than
+      that, they\u2019re essentially forced to do most of their feeding in early
+      spring."
+    duration: 1
+    audio: {fileID: 8300000, guid: ffa64343b842c234c96ab150a008b698, type: 3}

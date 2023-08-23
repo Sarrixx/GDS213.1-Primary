@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0702-D
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: And it was supposed to be a controlled burn. Even with people on
+        hand monitoring it, it still got out of hand.
+      duration: 1
+      audio: {fileID: 8300000, guid: f7ad44a95bf3e02489d0d108e6239250, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: "I\u2019m just glad no one got hurt. Managing that fire while it
+        was controlled would have been dangerous enough."
+      duration: 1
+      audio: {fileID: 8300000, guid: c6d050484f11a8b459760dc8afaf9f9d, type: 3}
+    value: 0.001
+    valueComparitor: 0

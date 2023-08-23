@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Name: C0602-B
+  m_EditorClassIdentifier: 
+  dialogue:
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: They said the wind started working against them yesterday evening.
+      Some extra units were called in for support because it started growing beyond
+      their initial control.
+    duration: 1
+    audio: {fileID: 8300000, guid: fcf643a080a29c944bdcbc3b00b34774, type: 3}

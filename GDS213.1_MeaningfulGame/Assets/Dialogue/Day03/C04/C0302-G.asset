@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0302-G
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: "I didn\u2019t have any and the emergency accommodation had finished."
+      duration: 1
+      audio: {fileID: 8300000, guid: ec79abe5be7737240859da6d1127c32b, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "I didn\u2019t really have any other option."
+    duration: 1
+    audio: {fileID: 8300000, guid: 81e47b893526d0b43a34a7ec172413f8, type: 3}
+    responseCaption: No option.
+    valueModifier: -0.27
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "I didn\u2019t have any other option, there was so much going on. I
+      was totally overwhelmed."
+    duration: 1
+    audio: {fileID: 8300000, guid: 848179833d1c9c841a4d8ba84bf2a449, type: 3}
+    responseCaption: A lot going on.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: Unfortunately I had no other options, no support to fall back on. I
+      was completely overwhelmed, and had no idea how to start rebuilding my life.
+    duration: 1
+    audio: {fileID: 8300000, guid: 21ca758d6b4343349b98b9192a0b3514, type: 3}
+    responseCaption: I was overwhelmed.
+    valueModifier: 0.27

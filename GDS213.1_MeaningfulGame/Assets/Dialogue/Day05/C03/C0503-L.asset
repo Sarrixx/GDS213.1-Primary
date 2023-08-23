@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0503-L
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "Fun hypothetical, but thankfully it\u2019s just that - a hypothetical."
+      duration: 1
+      audio: {fileID: 8300000, guid: ae3656d6265def24bb410cbaa28c3816, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "Even if a fire were to tear through here, I\u2019d be out here afterwards,
+        doing whatever I could to help restore things."
+      duration: 1
+      audio: {fileID: 8300000, guid: a1dc4e8037d808b48bd8f21f285ca36c, type: 3}
+    value: 0.001
+    valueComparitor: 0

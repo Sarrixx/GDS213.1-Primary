@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0502-B
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "That\u2019s still very alarming. If it was a planned burn, we would
+        have been informed weeks ago."
+      duration: 1
+      audio: {fileID: 8300000, guid: f85262879b4345845acca0103db57911, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "Oh my god I can\u2019t believe this is happening again. All it will
+      take is a sudden change in the wind direction and speed, and this place will
+      be reduced to ashes."
+    duration: 1
+    audio: {fileID: 8300000, guid: 946a29c4981fded48b896731723d8aed, type: 3}
+    responseCaption: "I can\u2019t believe it."
+    valueModifier: -0.275
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: Another fire, is this for real? I...we need to get help, immediately.
+    duration: 1
+    audio: {fileID: 8300000, guid: ac3ebe2c9ad45f14599b74a5123c8520, type: 3}
+    responseCaption: Alarming.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: That is alarming. I think it would be wise to get in touch with DFES,
+      see if they are aware of the situation.
+    duration: 1
+    audio: {fileID: 8300000, guid: 5277db990a4696c48a51c308471a6a12, type: 3}
+    responseCaption: Contact DFES.
+    valueModifier: 0.275

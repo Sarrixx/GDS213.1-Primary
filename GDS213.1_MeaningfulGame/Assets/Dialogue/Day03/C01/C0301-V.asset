@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Name: C0301-V
+  m_EditorClassIdentifier: 
+  dialogue:
+    isPlayer: 1
+    speaker: Douglas
+    subtitle: "If I ever have my own place to live again, I\u2019m going to take
+      a lesson from these tortoises and live underground..."
+    duration: 1
+    audio: {fileID: 8300000, guid: 58aca8a6f63039a4e86a8b8313755298, type: 3}

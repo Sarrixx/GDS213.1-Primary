@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0403-K
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "They\u2019ve managed to get this far along. If our effort pays off
+        like we intend it to, they\u2019ve got further to go still."
+      duration: 1
+      audio: {fileID: 8300000, guid: 6d29ac69de475bc40b19345b932d0285, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "It goes to show that with perseverance, the odds can be overcome
+        - even in the face of adversity. It\u2019s just a matter of being in the
+        right place, at the right time."
+      duration: 1
+      audio: {fileID: 8300000, guid: 8a469baa00b5f864095a10950ca0026a, type: 3}
+    value: 0.001
+    valueComparitor: 0

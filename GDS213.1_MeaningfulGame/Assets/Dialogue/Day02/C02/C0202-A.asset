@@ -15,6 +15,7 @@ MonoBehaviour:
   dialogue:
     isPlayer: 1
     speaker: Douglas
-    subtitle: The other tortoise seems to be very happy and at home here.
-    duration: 2.3
-    audio: {fileID: 8300000, guid: 5df90479a1a086e42be114274e295640, type: 3}
+    subtitle: "Oh cool, there\u2019s another tortoise in the water with the new guy.
+      Looks like they\u2019re having a feeding frenzy! Well, a leisurely frenzy."
+    duration: 1
+    audio: {fileID: 8300000, guid: f8d8bb8a4d28efc4cb7351de9dcf9f4d, type: 3}

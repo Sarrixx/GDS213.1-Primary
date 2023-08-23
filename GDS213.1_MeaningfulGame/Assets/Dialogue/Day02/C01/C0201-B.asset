@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: C0201-B
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Dr. Walker
-    subtitle: "Mornin\u2019 Douglas, I hope you managed a good night's sleep - I
-      slept like a rock. I\u2019m quite surprised you managed to catch two of them
-      on camera at once - they\u2019re usually pretty elusive!"
-    duration: 4
-    audio: {fileID: 8300000, guid: 9563093b60802884e801a56eee352a5d, type: 3}
+    isPlayer: 1
+    speaker: Douglas
+    subtitle: "It was nice to meet you in person last night, I\u2019m surprised you
+      are awake so early given how late we stayed up chatting!"
+    duration: 1
+    audio: {fileID: 8300000, guid: a2aa12bd48bb1fb4eb2581c688f10dcc, type: 3}

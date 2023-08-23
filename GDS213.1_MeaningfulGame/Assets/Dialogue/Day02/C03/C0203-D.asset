@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: C0203-D
   m_EditorClassIdentifier: 
   dialogue:
+    isPlayer: 0
     speaker: Dr. Walker
-    subtitle: Now there's only a single naturally occurring population of the species
-      in the wild. Efforts like what we are doing here are the only thing really
-      helping them fight extinction.
-    duration: 3.5
-    audio: {fileID: 8300000, guid: 8fc0d5ece4a91e547835a68addcb89ba, type: 3}
+    subtitle: "It\u2019s absolutely been one of my main interests in that time yeah.
+      I\u2019ve spent a lot of time ensuring the progress of this site."
+    duration: 1
+    audio: {fileID: 8300000, guid: 859234b33b5428f42bbdc783c3f6e3a8, type: 3}

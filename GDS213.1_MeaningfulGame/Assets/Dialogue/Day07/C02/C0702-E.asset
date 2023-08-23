@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Name: C0702-E
+  m_EditorClassIdentifier: 
+  dialogue:
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "If the firefighters hadn\u2019t been there in the first place to slow
+      it down - it\u2019s a lot more likely it would have reached the park, and decimated
+      the vulnerable species living here."
+    duration: 1
+    audio: {fileID: 8300000, guid: f369cd0c0b647fa4196d6bc7f8869627, type: 3}

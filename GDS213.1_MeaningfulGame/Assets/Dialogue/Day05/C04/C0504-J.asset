@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0504-J
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: "Those pictures I showed you the other night were taken months ago
+        now, but they\u2019re the most recent ones I have."
+      duration: 1
+      audio: {fileID: 8300000, guid: 14a49a7f15061934ea788b173a55e955, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: Unfortunately it still looks very burnt.
+    duration: 1
+    audio: {fileID: 8300000, guid: bf8465dc8490c9e4596922c688775fac, type: 3}
+    responseCaption: Burnt.
+    valueModifier: -0.27
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "There\u2019s signs of regrowth starting to show. There's patches of
+      greenery poking through the char."
+    duration: 1
+    audio: {fileID: 8300000, guid: 4283eeb93e7a70b4b9d702a25b6e21c0, type: 3}
+    responseCaption: Signs of growth.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: I like to focus on the sections of regrowth.
+    duration: 1
+    audio: {fileID: 8300000, guid: 9bf4c60289b2f364796e58c58221457a, type: 3}
+    responseCaption: Focus on regrowth.
+    valueModifier: 0.27

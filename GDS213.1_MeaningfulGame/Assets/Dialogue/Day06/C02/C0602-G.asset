@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0602-G
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: So we need to start acting.
+      duration: 1
+      audio: {fileID: 8300000, guid: 6f16a2a985928f64ba283f08e2a110be, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "So we have a little time at least. But we can\u2019t delay action
+        any longer."
+      duration: 1
+      audio: {fileID: 8300000, guid: cf3d7c0319ac3db428d283db1ccbd817, type: 3}
+    value: 0.001
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: I think we should leave. Immediately.
+    duration: 1
+    audio: {fileID: 8300000, guid: 5c874bf90bc49fd48a66a9b217c6823c, type: 3}
+    responseCaption: Leave immediately.
+    valueModifier: -0.27
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: Ok well we need to get all the important things together and get ready
+      to leave.
+    duration: 1
+    audio: {fileID: 8300000, guid: 1a0fef9add044094db854f4250213c4f, type: 3}
+    responseCaption: Get ready.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: We need to figure out how to collect all the torts.
+    duration: 1
+    audio: {fileID: 8300000, guid: 49a91f7e7953ccc47a4f51a23c9d75d4, type: 3}
+    responseCaption: Collect the torts.
+    valueModifier: 0.27

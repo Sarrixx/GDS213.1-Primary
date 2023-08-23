@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0701-K
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: It was pretty traumatic. We only narrowly avoided disaster this time
+        around.
+      duration: 1
+      audio: {fileID: 8300000, guid: f1e08623b46a70842a6255620280bb02, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: Thanks. I still never want to experience anything like that again,
+        but it feels good to know I could do something to help the torts in the face
+        of danger.
+      duration: 1
+      audio: {fileID: 8300000, guid: 0c58a0facea56a445968f00d24f36e65, type: 3}
+    value: 0.001
+    valueComparitor: 0

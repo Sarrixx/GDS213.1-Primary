@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0502-M
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "That\u2019s a relief, seems like there\u2019s nothing to worry about."
+      duration: 1
+      audio: {fileID: 8300000, guid: 42c3f2fa127a5b84c94f65c8c60fe12c, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "I\u2019m not so sure. In my experience, things can change for the
+      worse in the blink of an eye. At least the fire fighters are already there."
+    duration: 1
+    audio: {fileID: 8300000, guid: 27d5cc312faaaf04ab1a9bf1658e6a98, type: 3}
+    responseCaption: Not so sure.
+    valueModifier: -0.275
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: Hopefully. It sounds like the emergency services are on top of it.
+      But nature is often unpredictable, despite our best efforts and technology.
+    duration: 1
+    audio: {fileID: 8300000, guid: 5d7b0bbd39b87154a9a1fc40f2e33543, type: 3}
+    responseCaption: Hopefully.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "Yeah, it sounds like it\u2019s a small fire, and the emergency services
+      are on site monitoring it."
+    duration: 1
+    audio: {fileID: 8300000, guid: 6566704dcedc69541819e700a5589a32, type: 3}
+    responseCaption: Small fire.
+    valueModifier: 0.275

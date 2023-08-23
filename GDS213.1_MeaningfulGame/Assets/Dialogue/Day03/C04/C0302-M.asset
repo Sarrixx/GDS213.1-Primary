@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0302-M
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: If you place your fingertips on their shell carefully, in a way it's
+        like touching a static electricity ball.
+      duration: 1
+      audio: {fileID: 8300000, guid: 967662a2c520342448261ab32962d27a, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: At least they carry their homes with them.
+    duration: 1
+    audio: {fileID: 8300000, guid: 7302f0ddfbc9f0d4eb1f78f362f910cf, type: 3}
+    responseCaption: Portable home.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: Well at that time, my home came everywhere with me - just like them
+      too.
+    duration: 1
+    audio: {fileID: 8300000, guid: 72c16feef79e8784988b1909673b4398, type: 3}
+    responseCaption: Just like them.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "That\u2019s an interesting analogy. The car was my life line at the
+      time, it felt like a sensory extension of my body in a similar sense to that."
+    duration: 1
+    audio: {fileID: 8300000, guid: e9cfb9f41211f15498be2656d560fd32, type: 3}
+    responseCaption: Life line.
+    valueModifier: 0.27

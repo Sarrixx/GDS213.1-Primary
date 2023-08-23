@@ -9,12 +9,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
   m_Name: C0203-E
   m_EditorClassIdentifier: 
-  dialogue:
-    isPlayer: 1
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "But I do other stuff as well. Sometimes I find my way back to my
+        house. I\u2019m not there enough for it to really feel like home though."
+      duration: 1
+      audio: {fileID: 8300000, guid: 459d75ee65a94c14b8abd164228bc3ee, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
     speaker: Douglas
-    subtitle: And Perth Zoo is the only place running a captive breeding program?
-    duration: 2.8
-    audio: {fileID: 8300000, guid: b837e77abb805c6479bc3ea8f5669572, type: 3}
+    subtitle: "Even if you don\u2019t spend much time there, at least you know it\u2019s
+      there when you need it."
+    duration: 1
+    audio: {fileID: 8300000, guid: f5d3a3fc31696594183b1c066afa3850, type: 3}
+    responseCaption: It's still yours.
+    valueModifier: -0.26
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "Don\u2019t take it for granted. Cherish it, even if it\u2019s just
+      a place to put your things."
+    duration: 1
+    audio: {fileID: 8300000, guid: 7210621237509054da32c79a5ff495cc, type: 3}
+    responseCaption: Cherish it.
+    valueModifier: 0.26

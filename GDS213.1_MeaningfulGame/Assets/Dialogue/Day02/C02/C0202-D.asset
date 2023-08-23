@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: C0202-D
   m_EditorClassIdentifier: 
   dialogue:
-    isPlayer: 1
-    speaker: Douglas
-    subtitle: Wow, so the manmade wetland here was obviously an effective effort?
-    duration: 2.3
-    audio: {fileID: 8300000, guid: eac54d9fbbc580d4dad792199522c7f6, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "Well not only that, but they will also only feed when the water is
+      above fourteen degrees celsius. Remember, they\u2019re only active for about
+      half of the year."
+    duration: 1
+    audio: {fileID: 8300000, guid: 27c5d9d4b50958046aead1558be71c19, type: 3}

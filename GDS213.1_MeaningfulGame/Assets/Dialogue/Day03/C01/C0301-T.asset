@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0301-T
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: They lay between three and five eggs on average, there were five
+        between the two nests.
+      duration: 1
+      audio: {fileID: 8300000, guid: 487a04ed763c6d844bc21390c67cbfd4, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: Devastating
+    duration: 1
+    audio: {fileID: 8300000, guid: e400bfc804353e544a757e10644ac23e, type: 3}
+    responseCaption: Devastating.
+    valueModifier: -0.275
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "I guess we\u2019ll see how it goes this year."
+    duration: 1
+    audio: {fileID: 8300000, guid: 9a634bffe39b65a498c576d3609f0bf4, type: 3}
+    responseCaption: We'll see.
+    valueModifier: -0.275
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "Well this season sounds like it\u2019s more promising."
+    duration: 1
+    audio: {fileID: 8300000, guid: d972704b662a8d34896df851fa11b663, type: 3}
+    responseCaption: Promising season.
+    valueModifier: -0.275

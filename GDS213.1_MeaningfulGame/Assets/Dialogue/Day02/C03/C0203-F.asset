@@ -9,12 +9,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
   m_Name: C0203-F
   m_EditorClassIdentifier: 
-  dialogue:
-    speaker: Dr. Walker
-    subtitle: That's right, if it wasn't for their efforts over the last few decades
-      then it's likely the species wouldn't be around today.
-    duration: 3.2
-    audio: {fileID: 8300000, guid: 95b4dd59261fa8f4e971e75996e8db9c, type: 3}
+  decisions:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: Yeah I guess it is good to know I have a place to retreat to if necessary.
+        But honestly, nature is my preferred retreat.
+      duration: 1
+      audio: {fileID: 8300000, guid: ba3ed107a0222b24287545586287a04e, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: Sheesh alright I guess when you put it all heavy like that...I do
+        start to miss my humble abode.
+      duration: 1
+      audio: {fileID: 8300000, guid: 3bdcbc8c76c36ba4a87f51db17909f85, type: 3}
+    value: 0.001
+    valueComparitor: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Name: C0401-A
+  m_EditorClassIdentifier: 
+  dialogue:
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "Righto I\u2019m done with my lunch, I think I\u2019ll take a walk
+      outside to see if I find any signs of that sneaky fox we spotted the other
+      day."
+    duration: 1
+    audio: {fileID: 8300000, guid: 4f325a300df9bdc4698793790c818d79, type: 3}

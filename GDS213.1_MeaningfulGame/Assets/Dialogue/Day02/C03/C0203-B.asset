@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: C0203-B
   m_EditorClassIdentifier: 
   dialogue:
+    isPlayer: 0
     speaker: Dr. Walker
-    subtitle: Absolutely, this area in particular is a hotspot for biodiversity,
-      and provides haven to a range of endangered species. That's also one of the
-      reasons that there's a lot of potential here for establishing the tortoises
-      in the wild again.
-    duration: 4
-    audio: {fileID: 8300000, guid: de6b21db11114904498f5203ba162d4e, type: 3}
+    subtitle: "I think that\u2019s probably one of the largest ones we have out here,
+      likely one of the original releases. There have only been a handful of others
+      released since the initial seven."
+    duration: 1
+    audio: {fileID: 8300000, guid: c7ba159f18d6bd344a0ef0ac017f2e51, type: 3}

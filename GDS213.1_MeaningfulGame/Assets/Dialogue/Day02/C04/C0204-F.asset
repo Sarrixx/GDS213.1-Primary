@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Name: C0204-F
+  m_EditorClassIdentifier: 
+  dialogue:
+    isPlayer: 1
+    speaker: Douglas
+    subtitle: Last summer during that intense heat wave we had, there was a huge
+      fire that roared through hectares of bushland. It was completely uncontrollable,
+      all the firefighters could do was warn and evacuate people.
+    duration: 1
+    audio: {fileID: 8300000, guid: 5523c8fc24c161644b3c9e461ca930b6, type: 3}

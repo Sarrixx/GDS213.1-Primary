@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0403-J
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "Absolutely. These tortoises were already thought to have gone extinct
+        once. Then a school boy actually discovered one in the nineteen fifties.
+        It\u2019s already been resurrected once, so to speak."
+      duration: 1
+      audio: {fileID: 8300000, guid: b530eae83afb28241bafed0bf0887ae2, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: Well they do have the benefit of human support now, even if we initially
+      helped drive them this close to extinction.
+    duration: 1
+    audio: {fileID: 8300000, guid: f1d3733c71723a34d81f58ed06ebdbb9, type: 3}
+    responseCaption: They have support.
+    valueModifier: -0.275
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "Huh, that\u2019s kind of heart warming. Not many extinction stories
+      have a positive ending."
+    duration: 1
+    audio: {fileID: 8300000, guid: 5d0631b6993108948a65fb675f8d44a1, type: 3}
+    responseCaption: Heart warming.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "That\u2019s amazing, it\u2019s actually kind of inspirational."
+    duration: 1
+    audio: {fileID: 8300000, guid: e6679a536b594144e8590098c2ac2eeb, type: 3}
+    responseCaption: "\u2018Inspirational."
+    valueModifier: 0.275

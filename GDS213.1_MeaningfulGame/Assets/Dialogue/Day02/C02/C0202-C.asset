@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: C0202-C
   m_EditorClassIdentifier: 
   dialogue:
-    speaker: Dr. Walker
-    subtitle: That's quite a substantial effort in conservational terms, considering
-      how endangered the species is. They were always probably a very rare species
-      as well, given their limited natural distribution.
-    duration: 3.8
-    audio: {fileID: 8300000, guid: 16e33f61a195a244e833fbcc58f9e924, type: 3}
+    isPlayer: 1
+    speaker: Douglas
+    subtitle: And I thought I knew some picky eaters!
+    duration: 1
+    audio: {fileID: 8300000, guid: d52db1932f303e441ac353c2ec63a7c0, type: 3}

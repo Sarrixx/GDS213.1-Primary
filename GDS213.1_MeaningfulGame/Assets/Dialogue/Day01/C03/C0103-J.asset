@@ -20,7 +20,7 @@ MonoBehaviour:
         been constructed to give them the best chance possible."
       duration: 1
       audio: {fileID: 8300000, guid: 9de3f955118f0f246bab3cddc109d8b6, type: 3}
-    value: 0.01
+    value: -0.001
     valueComparitor: 1
   - dialogue:
       isPlayer: 0

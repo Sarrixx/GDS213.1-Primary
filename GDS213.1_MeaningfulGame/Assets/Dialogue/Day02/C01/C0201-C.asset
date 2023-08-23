@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: C0201-C
   m_EditorClassIdentifier: 
   dialogue:
-    isPlayer: 1
-    speaker: Douglas
-    subtitle: "I\u2019m not usually a lucky person. I\u2019m assuming the smaller
-      of the two is the new release?"
-    duration: 2
-    audio: {fileID: 8300000, guid: 2175270f70adc574296669aaf13fd6c2, type: 3}
+    isPlayer: 0
+    speaker: Dr. Walker
+    subtitle: "Good morning! I\u2019m an early bird, this is the best time of day
+      to be outside - the bush is bustling with life in the morning."
+    duration: 1
+    audio: {fileID: 8300000, guid: a2686ed013ce7c64b991c0f7f71bf235, type: 3}

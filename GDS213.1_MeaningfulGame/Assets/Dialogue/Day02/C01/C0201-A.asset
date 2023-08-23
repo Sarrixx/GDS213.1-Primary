@@ -9,14 +9,37 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
   m_Name: C0201-A
   m_EditorClassIdentifier: 
-  dialogue:
-    isPlayer: 1
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: Douglas, are you awake yet?
+      duration: 1
+      audio: {fileID: 8300000, guid: 914dc1fb9d1c9d44c9ad85559c19474d, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
     speaker: Douglas
-    subtitle: "Good morning Dr. Walker. The new specimen is still hanging around
-      Marker\u2019s Well this morning. It looks like it may have encountered one
-      of the established tortoises too."
-    duration: 3.7
-    audio: {fileID: 8300000, guid: c97c73b92b864764992af38ff658d56b, type: 3}
+    subtitle: "Hey. Yeah I\u2019m up."
+    duration: 1
+    audio: {fileID: 8300000, guid: 5f6d855b5e38fcb4daabc2732bd30123, type: 3}
+    responseCaption: I'm up.
+    valueModifier: -0.358
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "Hey, Dr. Walker. Yeah I\u2019ve been awake for a while."
+    duration: 1
+    audio: {fileID: 8300000, guid: 2c307f2d25fafde4190b0fbc3b974d0d, type: 3}
+    responseCaption: Awake for a while.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "Morning. Yeah I\u2019m awake, I had a bit of a rough sleep last night."
+    duration: 1
+    audio: {fileID: 8300000, guid: a9e112dd8925bbf47ab5ec124a475dd3, type: 3}
+    responseCaption: Slept rough.
+    valueModifier: 0.358

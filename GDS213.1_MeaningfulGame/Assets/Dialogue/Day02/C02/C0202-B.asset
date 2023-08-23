@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: C0202-B
   m_EditorClassIdentifier: 
   dialogue:
+    isPlayer: 0
     speaker: Dr. Walker
-    subtitle: The initial release in this wetland included seven specimens, with
-      yesterday's release marking the eleventh released here since.
-    duration: 3
-    audio: {fileID: 8300000, guid: c07c4fcc2de882041bfa531754661720, type: 3}
+    subtitle: "That\u2019s fantastic to hear, we\u2019re witnessing the end of their
+      feeding season. They\u2019re notoriously picky eaters. They don\u2019t eat
+      carrion or vegetation, only a carnivorous diet of live food."
+    duration: 1
+    audio: {fileID: 8300000, guid: 758db8b876d4b004a9f8a5abee3358c7, type: 3}

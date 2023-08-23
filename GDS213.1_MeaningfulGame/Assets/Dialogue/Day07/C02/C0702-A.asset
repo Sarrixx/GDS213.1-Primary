@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0702-A
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: "The sky is nice today. I think it\u2019s the first day we\u2019ve
+        had since the fire that's been completely clear of smoke."
+      duration: 1
+      audio: {fileID: 8300000, guid: 9f8ebc618b39d1d488567fb7d36ad078, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: "No trace of smoke in the sky today, just a couple of clouds scattered
+        through a beautiful blue sky. It\u2019s been a while since we\u2019ve had
+        a day like this."
+      duration: 1
+      audio: {fileID: 8300000, guid: 7d747d3e8cb5aaf42be2024ac5fd37f9, type: 3}
+    value: 0.001
+    valueComparitor: 0

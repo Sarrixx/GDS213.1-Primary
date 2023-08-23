@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0701-I
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: "It came within ten kilometres though. The wind changing again gave
+        them the advantage, thankfully it didn\u2019t change back! That was way too
+        close for comfort."
+      duration: 1
+      audio: {fileID: 8300000, guid: 02aa02df40ba41c45af2566068c8cb9b, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 1
+      speaker: Douglas
+      subtitle: "It was even luckier the wind stopped blowing this way, that\u2019s
+        what gave them the real advantage. But we managed to make it through, and
+        thankfully nothing bad happened."
+      duration: 1
+      audio: {fileID: 8300000, guid: 56890f7791077eb4895f220bf02bd30e, type: 3}
+    value: 0.001
+    valueComparitor: 0

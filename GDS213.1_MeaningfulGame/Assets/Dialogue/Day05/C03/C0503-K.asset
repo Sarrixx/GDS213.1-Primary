@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0503-K
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "But if a fire were to come through this habitat we\u2019ve built
+        for them, it would be a huge setback."
+      duration: 1
+      audio: {fileID: 8300000, guid: 649563babb14e234786d94146a3b7d97, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: This place is special. It would be sad to see it destroyed.
+    duration: 1
+    audio: {fileID: 8300000, guid: 6135b6bfbf62ede45a949815ea6c615d, type: 3}
+    responseCaption: Special place.
+    valueModifier: -0.275
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "Well based on what DFES told us, I don\u2019t think we need to be
+      concerned about that."
+    duration: 1
+    audio: {fileID: 8300000, guid: 11403ab18635c8a44a6ae4501e1946cb, type: 3}
+    responseCaption: Don't be concerned.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: With people like you gunning for them, I doubt that could stop their
+      reestablishment in the wild.
+    duration: 1
+    audio: {fileID: 8300000, guid: ef9f5f86bc0a4054bbd8d351386e0d98, type: 3}
+    responseCaption: Won't stop you.
+    valueModifier: 0.275

@@ -20,7 +20,7 @@ MonoBehaviour:
         controlled burns."
       duration: 1
       audio: {fileID: 8300000, guid: 9b68c4086043f9b4e956db4a94c6f7b4, type: 3}
-    value: 0
+    value: -0.001
     valueComparitor: 1
   - dialogue:
       isPlayer: 0

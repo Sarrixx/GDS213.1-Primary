@@ -15,6 +15,8 @@ MonoBehaviour:
   dialogue:
     isPlayer: 1
     speaker: Douglas
-    subtitle: This national park is very different to the bush around Perth.
-    duration: 3.7
-    audio: {fileID: 8300000, guid: 452fa69fce74b4947a3e61f049fce04b, type: 3}
+    subtitle: "It\u2019s definitely easier to distinguish the size of the new specimen
+      in comparison to the other one I\u2019m looking at here. It\u2019s about two
+      thirds of the size of this other one."
+    duration: 1
+    audio: {fileID: 8300000, guid: 080c7d47d30deb54f860b7bb3adb5b1f, type: 3}

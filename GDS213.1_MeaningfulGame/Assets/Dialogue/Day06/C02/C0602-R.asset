@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff9a76e250d1c1143aa2039ace53c15d, type: 3}
+  m_Name: C0602-R
+  m_EditorClassIdentifier: 
+  dialogue:
+    isPlayer: 0
+    speaker: DFES
+    subtitle: "It hasn\u2019t reached the borders of the national park yet, but if
+      control isn\u2019t quickly reestablished then you will likely be under threat
+      within the next two hours - give or take thirty minutes."
+    duration: 1
+    audio: {fileID: 8300000, guid: 9df7af2e6875f0f40a44a6f96e75cb8b, type: 3}

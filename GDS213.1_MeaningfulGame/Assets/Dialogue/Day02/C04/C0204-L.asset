@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0204-L
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "For what it\u2019s worth, I think you\u2019ve made a good call coming
+        out here. Life finds a way, and this is the perfect experience to find your
+        place in the cycle."
+      duration: 1
+      audio: {fileID: 8300000, guid: 423116b0addce054f84ecb65ab8c47c8, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "I\u2019m not so sure about that right now."
+    duration: 1
+    audio: {fileID: 8300000, guid: 913f3fd1b3fb8244bac5ae2d323506dd, type: 3}
+    responseCaption: I'm not sure.
+    valueModifier: -0.275
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: Yeah, well...I guess time will tell.
+    duration: 1
+    audio: {fileID: 8300000, guid: ee5c499f1d88d4241a4264697af02f0e, type: 3}
+    responseCaption: Time will tell.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "I\u2019ll admit, it\u2019s impossible for that reference not to elicit
+      inspiration."
+    duration: 1
+    audio: {fileID: 8300000, guid: ad09c53aa71b18242821bf388f43c80a, type: 3}
+    responseCaption: Love that reference.
+    valueModifier: 0

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0404-J
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: What about you, any ideas about what happens after this?
+      duration: 1
+      audio: {fileID: 8300000, guid: b6cf930f0711ed74d9c5b31a074d73f8, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "I\u2019m still not really sure."
+    duration: 1
+    audio: {fileID: 8300000, guid: 330ca071ecc0266419f013bdf7ef4cf8, type: 3}
+    responseCaption: "I\u2019m not sure."
+    valueModifier: -0.275
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "Well, there\u2019s a lot of things I need to deal with. I guess I
+      have to start facing those things."
+    duration: 1
+    audio: {fileID: 8300000, guid: 3d3c77c2e10e80b418c2653dd6dcab0a, type: 3}
+    responseCaption: Deal with things.
+    valueModifier: 0
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "I\u2019ve been thinking about visiting my house too. I\u2019ve avoided
+      it for ages, so it\u2019s been a while since I\u2019ve seen it in person."
+    duration: 1
+    audio: {fileID: 8300000, guid: 1c74363229bb5f741a71b3a8c8daa1ec, type: 3}
+    responseCaption: Visit home.
+    valueModifier: 0.275

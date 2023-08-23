@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour
     public delegate void DialogueNodeDelegate(DialogueNode node);
     public delegate void ResponseNodeDelegate(ConversationResponseNode node, DecisionNode characterPrompt);
 
+    [SerializeField] bool forceStart = true; //debugging only
     [SerializeField] private bool skipAutomaticConversations = true;
     [SerializeField] private ConversationData dayStartConversation;
     [SerializeField] private ConversationData dayEndConversation;
@@ -83,6 +84,7 @@ public class DialogueManager : MonoBehaviour
             {
                 TotalConversations++;
             }
+            if (forceStart) { TriggerDayStart(); }
         }
     }
 

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6c94ce44d405a04f83a32c855ba951a, type: 3}
+  m_Name: C0703-F
+  m_EditorClassIdentifier: 
+  characterPrompts:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "The science of a great sunset. I\u2019ll remind you to take a photo
+        of it."
+      duration: 1
+      audio: {fileID: 8300000, guid: 489b0f0e5c1793d46ac7176f773aedee, type: 3}
+    value: 0
+    valueComparitor: 0
+  playerResponses:
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: "No need. I\u2019ll remember every single moment of my experience out
+      here. But I would like a selfie with you!"
+    duration: 1
+    audio: {fileID: 8300000, guid: 624381c37ae1e87478f52dc69180a853, type: 3}
+    responseCaption: No
+    valueModifier: 0.345
+  - isPlayer: 1
+    speaker: Douglas
+    subtitle: Good idea.
+    duration: 1
+    audio: {fileID: 8300000, guid: d3d6bcd5a7e3db145bec057a0205c35f, type: 3}
+    responseCaption: Yes
+    valueModifier: 0

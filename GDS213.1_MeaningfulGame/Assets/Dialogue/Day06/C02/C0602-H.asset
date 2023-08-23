@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0602-H
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: I know this is a scary situation, but we need to try to remain calm
+        if we are going to get out of here in time with the tortoises.
+      duration: 1
+      audio: {fileID: 8300000, guid: 918356738f14be245928f10e07a6535d, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: Both we and the tortoises will have evacuated the area well before
+        we are in immediate danger. We just need to remain calm, and evacuate methodically.
+      duration: 1
+      audio: {fileID: 8300000, guid: ec2942a7cb7b6a447b742b1ba6708943, type: 3}
+    value: 0.001
+    valueComparitor: 0

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0502-C
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "Try to remain calm ok, I know this might be a bit triggering for
+        you - but the wind isn\u2019t blowing in this direction. Right now, we are
+        safe."
+      duration: 1
+      audio: {fileID: 8300000, guid: a8ec7807eff22734b8f062c4b7f4ba4a, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "We\u2019ll be ok, thankfully the wind isn\u2019t blowing this way
+        right now. Let\u2019s hope it stays that way."
+      duration: 1
+      audio: {fileID: 8300000, guid: 245cb78fe006d29438522f1377405f83, type: 3}
+    value: 0.001
+    valueComparitor: 0

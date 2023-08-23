@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0302-O
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "Well, you\u2019re not living in your car at the moment. All you
+        can do is look to the future and do your best to recover."
+      duration: 1
+      audio: {fileID: 8300000, guid: ae8e02d66164d4f4089bdbfaac696076, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: Home is where the heart is. Those dreams and memories will only go
+        if you let them.
+      duration: 1
+      audio: {fileID: 8300000, guid: d5bab70f2f2e523449bc52b986bca05d, type: 3}
+    value: 0.001
+    valueComparitor: 0

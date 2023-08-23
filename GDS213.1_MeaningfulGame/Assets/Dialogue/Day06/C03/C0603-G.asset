@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0603-G
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "I\u2019ll be quick at my station, I\u2019m just grabbing a few essentials.
+        Then I\u2019ll drop in and pick you up, and we can collect the torts. Over
+        and out."
+      duration: 1
+      audio: {fileID: 8300000, guid: f1084c38e22ac354988b75425a5c95ab, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "Ok make sure you\u2019re ready to go. Then we\u2019ll grab the things
+        we need from my station and go find all the torts. Over and out."
+      duration: 1
+      audio: {fileID: 8300000, guid: 6d63cfb2deaa3af4ea527e43e8534d3c, type: 3}
+    value: 0.001
+    valueComparitor: 0

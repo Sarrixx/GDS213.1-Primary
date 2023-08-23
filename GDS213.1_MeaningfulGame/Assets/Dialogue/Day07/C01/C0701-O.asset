@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0701-O
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "You\u2019ve really helped make a difference while you\u2019ve been
+        out here Douglas. I\u2019ll send you some pics of the hatchlings next year."
+      duration: 1
+      audio: {fileID: 8300000, guid: 0cb0869075764094aa5dacac78300819, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "I\u2019ve enjoyed your company Douglas, together we\u2019ve been
+        able to ensure the tortoises continue to thrive here. You\u2019re welcome
+        to join me back here any time."
+      duration: 1
+      audio: {fileID: 8300000, guid: 2b62f7767dc403c469335f2834d25e9b, type: 3}
+    value: 0.001
+    valueComparitor: 0

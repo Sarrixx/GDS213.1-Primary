@@ -16,7 +16,7 @@ MonoBehaviour:
     isPlayer: 0
     speaker: Dr. Walker
     subtitle: "But it\u2019s a fairly small specimen in comparison to the adults
-      - maybe about 12 centimetres. It will be hard to distinguish the size from
+      - maybe about twelve centimetres. It will be hard to distinguish the size from
       the camera though."
     duration: 1
     audio: {fileID: 8300000, guid: aebf2fcee809e4d4cb06483caeb4dc0a, type: 3}

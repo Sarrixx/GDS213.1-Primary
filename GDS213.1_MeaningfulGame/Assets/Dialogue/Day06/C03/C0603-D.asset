@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af061c6561dd15947a7bb6ecae497bff, type: 3}
+  m_Name: C0603-D
+  m_EditorClassIdentifier: 
+  decisions:
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "I\u2019m not leaving until I\u2019ve done whatever I can to save
+        as many tortoises as possible."
+      duration: 1
+      audio: {fileID: 8300000, guid: 9c70ac86364f11041b510e7ed1bd72a0, type: 3}
+    value: -0.001
+    valueComparitor: 1
+  - dialogue:
+      isPlayer: 0
+      speaker: Dr. Walker
+      subtitle: "We\u2019ll evacuate, but we still have time to collect the tortoises.
+        We can push it for a little bit longer."
+      duration: 1
+      audio: {fileID: 8300000, guid: 78f09d3c0f7e76c4bb07a3e4c808b80c, type: 3}
+    value: 0.001
+    valueComparitor: 0

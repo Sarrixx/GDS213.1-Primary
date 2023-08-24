@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\CameraFeed.cs" />
     <Compile Include="Assets\Scripts\ConversationDialogueNode.cs" />
     <Compile Include="Assets\Scripts\DialogueManager.cs" />
+    <Compile Include="Assets\Scripts\FadeController.cs" />
     <Compile Include="Assets\Art\Ham_Radio\Ham_Transciever\Scripts\_Display_Anim_HRT.cs" />
     <Compile Include="Assets\Scripts\Conversation.cs" />
     <Compile Include="Assets\Scripts\UIManager_Pause.cs" />

@@ -33,7 +33,7 @@ public class Interaction : MonoBehaviour
                     {
                         if (target.OnInteract(new InteractionHitInfo(hitInfo.transform.gameObject)) == true)
                         {
-                            Log($"Interacted with {currentInteraction.name}.");
+                            //Log($"Interacted with {currentInteraction.name}.");
                         }
                     }
                 }

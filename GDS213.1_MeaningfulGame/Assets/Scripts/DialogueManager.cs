@@ -229,12 +229,12 @@ public class DialogueManager : MonoBehaviour
         {
             float openness = (float)BlackBoard["openness"];
             float ratio = responseNode.PlayerResponses[selectedDialogueIndex].ValueModifier / 1;
-            Debug.Log("Ratio: " + ratio);
+            //Debug.Log("Ratio: " + ratio);
             if (responseNode.PlayerResponses[selectedDialogueIndex].ValueModifier != 0)
             {
                 openness += 0.2f * ratio;
                 openness = Mathf.Clamp(openness, -1, 1);
-                Debug.Log("Openness: " + openness);
+                //Debug.Log("Openness: " + openness);
                 BlackBoard["openness"] = openness;
             }
             StartCoroutine(InvokeDialogueNode(responseNode.PlayerResponses[selectedDialogueIndex]));
@@ -282,11 +282,11 @@ public class DialogueManager : MonoBehaviour
                     if(DayManager.Instance != null && DayManager.Instance.TriggerNextDay() == 0)
                     {
                         BlackBoard["openness"] = 0f;
-                        Debug.Log("GAME FINISHED");
+                        //Debug.Log("GAME FINISHED");
                     }
                     else
                     {
-                        Debug.Log("LOAD NEXT SCENE");
+                        //Debug.Log("LOAD NEXT SCENE");
                     }
                 }
                 else if (dayEndConversation.Conversation.Length > 0 && ConversationCount == TotalConversations - 1 && skipAutomaticConversations == false)

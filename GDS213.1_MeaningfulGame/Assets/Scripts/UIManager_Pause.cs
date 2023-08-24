@@ -21,7 +21,7 @@ public class UIManager_Pause : MonoBehaviour
         {
             if(volume.profile.TryGetSettings(out bloom) == true)
             {
-                Debug.Log("Found Bloom");
+                //Debug.Log("Found Bloom");
             }
             volume.profile.TryGetSettings(out blur);
             volume.profile.TryGetSettings(out dof);
